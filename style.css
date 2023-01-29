@@ -36,6 +36,7 @@ i {
 
 .top-nav {
   min-width: 100%;
+  height: 5rem;
   top: 0;
   position: fixed;
   display: flex;
@@ -64,10 +65,61 @@ i {
   align-items: center;
 }
 
+.search-input {
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+}
+
 .bi-search {
   font-size: 1.5rem;
 }
 
 .bi-person-circle {
   font-size: 2rem;
+}
+
+.nav-spacer {
+  height: 5rem;
+  width: 100%;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 1rem;
+  margin: 1rem;
+}
+
+.card {
+  text-align: center;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 2.5rem;
+}
+
+.card-img {
+  width: 100%;
+  aspect-ratio: 16/9;
+  border: none;
+  border-radius: 1.25rem;
+  object-fit: cover;
+}
+
+.card-img:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease;
+}
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 0.25rem;
+  margin-left: 0.5rem;
+  gap: 0.2rem;
+}
+
+.card-desc {
+  font-size: 0.8rem;
+  color: rgb(184, 184, 184);
 }
