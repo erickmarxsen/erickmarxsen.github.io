@@ -16,7 +16,7 @@ function displayData(data) {
 
     const playlistImg = document.createElement("img");
     playlistImg.classList.add("card-img");
-    playlistImg.src = "./img/example.jpg";
+    playlistImg.src = "./img/dog.jpg";
     playlistCard.appendChild(playlistImg);
 
     const playlistText = document.createElement("div");
